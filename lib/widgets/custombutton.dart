@@ -10,8 +10,11 @@ class Custombutton extends StatelessWidget {
     return Container(
       height: 80,
       width: 300,
-      decoration: BoxDecoration(color: kbuttoncolor),
-      child: Text(text),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        color: kbuttoncolor,
+      ),
+      child: Center(child: Text(text)),
     );
   }
 }
