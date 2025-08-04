@@ -19,8 +19,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Checkout(),
-      //home: Getstarted(),
+
+      home: MainWrapper(),
+      //add  comments
+// =======
+//       home: Checkout(),
+//       //home: Getstarted(),
+// >>>>>>> main
       // home: ProduceReviewScreen(),
     );
     ;
